@@ -1,9 +1,9 @@
 import os
 
 # Bot token from @botfather
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("BOT_TOKEN","6451737248:AAHhmMdjgTlsjbWXwVSbn5eoJGaGEQDAnBg")
 # From my.telegram.org/
-API_ID = int(os.environ.get("API_ID", "23080322","6451737248:AAHhmMdjgTlsjbWXwVSbn5eoJGaGEQDAnBg"))
+API_ID = int(os.environ.get("API_ID", "23080322"))
 API_HASH = os.environ.get("API_HASH","b3611c291bf82d917637d61e4a136535")
 # For /log cmd
 OWNER_ID = [int(i) for i in os.environ.get("OWNER_ID", "7011929837").split(" ")]
