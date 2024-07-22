@@ -5,4 +5,3 @@ hachoir
 requests
 yt-dlp
 tzdata
-curl
